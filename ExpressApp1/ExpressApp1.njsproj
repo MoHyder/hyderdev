@@ -33,7 +33,19 @@
     <Compile Include="app.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
+    <Content Include="app.yaml" />
     <Content Include="package.json" />
+    <Content Include="public\images\icons\android-chrome-192x192.png" />
+    <Content Include="public\images\icons\android-chrome-384x384.png" />
+    <Content Include="public\images\icons\apple-touch-icon.png" />
+    <Content Include="public\images\icons\browserconfig.xml" />
+    <Content Include="public\images\icons\favicon-16x16.png" />
+    <Content Include="public\images\icons\favicon-32x32.png" />
+    <Content Include="public\images\icons\favicon.ico" />
+    <Content Include="public\images\icons\mstile-150x150.png" />
+    <Content Include="public\images\icons\safari-pinned-tab.svg" />
+    <Content Include="public\images\icons\site.webmanifest" />
+    <Content Include="public\manifest.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
     <Content Include="views\index.pug" />
@@ -43,6 +55,7 @@
   <ItemGroup>
     <Folder Include="public\" />
     <Folder Include="public\images\" />
+    <Folder Include="public\images\icons\" />
     <Folder Include="public\javascripts\" />
     <Folder Include="public\stylesheets\" />
     <Folder Include="routes\" />
